@@ -1,0 +1,87 @@
+//HANYA BOT  YANG SUKA ERROR ERROR 🗿
+
+const fs = require('fs')
+const chalk = require('chalk')
+
+global.nomerOwner ="6281325828808"
+global.nomerOwner2 = "6281325828808"
+global.ownerName = "Rashya"
+global.namabot = "© Rasolz Botz"
+global.botName = "© Rasolz Botz"
+global.autoJoin = true
+global.sessionName = 'session' //hati hati nanti error
+global.packName = "𝐫𝐚𝐬𝐡𝐲𝐚-ツ"
+global.authorName = "@Rashya°^°"
+global.namastore = "Rasolz Store"
+global.nodana = "081325828808"
+global.nogopay = "081325828808"
+global.noovo = "081325828808"
+global.qris = "-"
+global.TextT = `Rasolz°᭄ᴮᵒᵗ` //
+global.textT = `Rasolz°᭄ᴮᵒᵗ` // 
+global.sgc = ''
+global.syt = 'https://chat.whatsapp.com/F20Ia7iTt8JGBxRfaTGSr6'
+global.sig = 'https://instagram.com/raashya_'
+const mess = {
+wait: '_Sedang Di Proses Mohon Di Tunggu..._',
+query: 'Masukan query',
+search: 'Searching...',
+scrap: '*Scrapping...*',
+success: 'Berhasil!',
+err: 'Terjadi Kesalahan Coba Lagi Nanti!',
+limit: '[❕] Limit kamu sudah habis silahkan ketik .limit untuk mengecek limit',
+claimOn: 'Kamu sudah melakukan claim sebelumnya, Harap claim lagi pada jam ',
+wrongFormat: 'Format salah, coba liat lagi di menu',
+
+error: {
+stick: 'bukan sticker itu Tolol',
+api: 'Error api atau linkya mungkin',
+Iv: 'Linknya error asw',
+link : "Link error su"
+},
+block:{
+Bowner: `Maaf kak command sedang dalam perbaikan coba lagi besok .`,
+Bsystem: `Command tersebut telah di block oleh system karena terjadi error`
+},
+only: {
+prem : 'Maaf Kak, Tapi Fitur Ini Hanya Bisa Di Gunakan Oleh User Premium',
+group: 'Fitur ini dapat digunakan di dalam group!',
+ownerB: 'Fitur khusus Owner Bot!',
+owner: 'Maaf Kak Ini Fitur Khusus Owner Ku!!!',
+admin: 'Fitur dapat digunakan oleh admin group!',
+Badmin: 'Jadikan Rasolz Sebagai Admin Terlebih Dahulu!!!'
+}
+
+}
+
+global.mess = mess
+//=================================================//
+global.fotoRandom = [
+    "https://telegra.ph/file/e641b538c23cb470ecec2.jpg",
+    "https://telegra.ph/file/9973f515691d79d608583.jpg",
+    "https://telegra.ph/file/b1f8aeceda89f7417405a.jpg",
+    "https://telegra.ph/file/e5ed39a5742daac7396e5.jpg",
+    "https://telegra.ph/file/dfe8cbf9e23fff049214e.jpg",
+   
+    ]
+// Apikey 
+global.api = {
+ehz: 'always ehz',
+angel: 'zenzkey_af003aedbf', // Apikey Zahwazein
+Lol: 'GataDios',
+Botcahx: 'Admin',
+Apiflash: '9b9e84dfc18746d4a19d3afe109e9ea4',
+}
+//Gausah Juga
+global.gcounti = {
+'prem' : 1000,
+'user' : 20
+} 
+//=================================================//
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+	fs.unwatchFile(file)
+	console.log(chalk.redBright(`Update'${__filename}'`))
+	delete require.cache[file]
+	require(file)
+})
